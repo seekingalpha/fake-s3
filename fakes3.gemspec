@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
   s.add_dependency "thor"
   s.add_dependency "builder"
   s.add_dependency "sorted_set"
+  s.add_dependency "webrick"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
